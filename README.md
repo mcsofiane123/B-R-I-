@@ -3,7 +3,10 @@
 
 
 # For 
+
 pkg install git
+
 pkg install python3
+
 pip install V7xStyle
 
