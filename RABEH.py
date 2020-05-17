@@ -3,7 +3,7 @@ os.system ("clear")
 from V7xStyle import *
 from time import *
 import random
-from sofiane import *
+from Sofiane import *
 #############################################
 an=Animation
 logo=Style("""
