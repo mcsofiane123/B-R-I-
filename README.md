@@ -6,13 +6,15 @@
 
 pkg install git
 
-pkg install python3
+pkg install python
 
 pip install V7xStyle
 
 git clone https://github.com/mcsofiane123/Rabeh_Da_Silva
 
-python3 Rabeh.py
+cd Rabeh_Da_Silva
+
+python Rabeh.py
 
 # Tools
 
