@@ -10,9 +10,9 @@ pkg install python
 
 pip install V7xStyle
 
-git clone https://github.com/mcsofiane123/Rabeh_Da_Silva
+git clone https://github.com/mcsofiane123/B-R-I-
 
-cd Rabeh_Da_Silva
+cd B-R-I-
 
 python Rabeh.py
 
