@@ -49,7 +49,7 @@ elif num == '3':Linux_Distro()
 elif num == '4':Password_List()
 elif num == '5':web_Hacking()
 elif num == '6':other()
-elif Num == '7':
+elif num == '7':
    os.system('git clone https://github.com/mcsofiane123/B-R-I-')
 else:
     print ('Error...!'*100)
