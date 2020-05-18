@@ -108,4 +108,6 @@ Tool-X
 
 V7x-Tool
 
+Fuck Admin
+
 # Comming Soon
