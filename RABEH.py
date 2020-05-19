@@ -50,7 +50,11 @@ elif num == '4':Password_List()
 elif num == '5':web_Hacking()
 elif num == '6':other()
 elif num == '7':
-   os.system('git clone https://github.com/mcsofiane123/B-R-I-')
+   os.system('cd ~')
+   os.system('rm -rif B-R-I-')
+   os.system('git clone https://github.com/mcsofiane123/B-R-I')
+   os.system('cd B-R-I-')
+   os.system('python RABEH.py')
 else:
     print ('Error...!'*100)
     sleep (1)
