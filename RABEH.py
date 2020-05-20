@@ -6,13 +6,12 @@ import random
 from Sofiane import *
 #############################################
 an=Animation
-logo=Style("""
-   G#   ╔═╗────╔╗────╔╗─  ─╔╗────  ╔═╗╔╗────────────
-  G#    ║╬║╔═╗─║╚╗╔═╗║╚╗  ╔╝║╔═╗─  ║═╣╠╣╔╗─╔═╦═╗╔═╗─
-   G#   ║╗╣║╬╚╗║╬║║╩╣║║║  ║╬║║╬╚╗  ╠═║║║║╚╗╚╗║╔╝║╬╚╗
-   G#   ╚╩╝╚══╝╚═╝╚═╝╚╩╝  ╚═╝╚══╝  ╚═╝╚╝╚═╝─╚═╝─╚══╝
-   G#   ────────────────  ───────  ─────────────────
-                                                   Y#  BY:Sofiane✓""").Square(Equal=True)
+logo=Style("""      G#         ____             ____            ___   Y#By:SoFiane
+     G#         | __ )           |  _ \           |_ _|
+   G#           |  _ \           | |_) |           | |
+    G#          | |_) |          |  _ <            | |
+  G#            |____/           |_| \_\          |___|
+                                                                """).Square(Equal=True)
 #############################################
 sleep(1)
 os.system("clear")
@@ -35,7 +34,7 @@ ls = Style(
         space=2,
         padding_x=4,
         padding_y=1)
-cd= Style('Y#[7]P# ☬⫷🄲 🄾 🄼 🄸 🄽 🄶  🅂 🄾 🄾 🄽⫸☬  ').Square(Equal=True,padding_x=17)       
+cd= Style('Y#[7]P# ☬---⫷🄵🄾🅁 🅄🄿🄳🄰🅃🄴⫸---☬  ').Square(Equal=True,padding_x=19)       
 
     
 an.SlowIndex(ls, t=0.0007) 
@@ -50,15 +49,15 @@ elif num == '4':Password_List()
 elif num == '5':web_Hacking()
 elif num == '6':other()
 elif num == '7':
-   os.system('cd ~')
-   os.system('rm -rif B-R-I-')
-   os.system('git clone https://github.com/mcsofiane123/B-R-I-')
-   os.system('cd B-R-I-')
-   os.system('python RABEH.py')
+    os.system('clear')
+    os.system('cd')
+    os.system('rm -rif B-R-I-')
+    os.system('git clone https://github.com/mcsofiane123/B-R-I-')
+    os.system('cd B-R-I-')
+    os.system('python RABEH.py')
 else:
     print ('Error...!'*100)
     sleep (1)
     os.system('clear')
     backtomenu_option()
     os.system('clear')
-
